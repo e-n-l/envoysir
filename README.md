@@ -1,8 +1,14 @@
 # envoysir
 API Web-form Wrapper + Invoice Generator
 
-## Overview
+## Status
 
+This project was put on hiatus indefinitely in early 2016 after I secured full-time employment, as the time and effort of a) addressing issues / feature requests and b) billing users became untenable.
+
+Prior to hiatus, the most requested feature was quote generation, which would have shifted the role of the app to become the initiation point of the order, allowing for syndication of specialized data subsets to all the various stakeholders. (product fulfillment, engraving services, contractor CRM, client invoice, etc.) Progress towards that end was made on various fronts prior to project stalling. Other goals for the project prior to hiatus included moving to a stand-alone homegrown UI, which would have allowed for a library of applicable invoice styles, and automation of additional bundling which could be adjusted by the user. 
+
+
+## Overview
 ### Views
 [**Google Sheet**](https://docs.google.com/spreadsheets/d/1GeM5KaL97qNLKdh8jbf0kFfRyOlJNwJiHgZn_S04gVo/edit?usp=sharing#gid=0) provides primary view / interface for contractor to request data. 
 
@@ -32,13 +38,6 @@ The API would also perform additional operations on the order data, depending on
 ### Model
 
 Database usage was minimal, primarily consisting of a table of users and their subscription state, and a log of usage / attempts. 
-
-
-## Status
-
-This project was put on hiatus indefinitely in early 2016 after I secured full-time employment, as the time and effort of a) addressing issues / feature requests and b) billing users became untenable.
-
-Prior to hiatus, the most requested feature was quote generation, which would have shifted the role of the app to become the initiation point of the order, allowing for syndication of specialized data subsets to all the various stakeholders. (product fulfillment, engraving services, contractor CRM, client invoice, etc.) Progress towards that end was made on various fronts prior to project stalling. Other goals for the project prior to hiatus included moving to a stand-alone homegrown UI, which would have allowed for a library of applicable invoice styles, and automation of additional bundling which could be adjusted by the user. 
 
 
 ## Background  
